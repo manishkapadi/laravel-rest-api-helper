@@ -1,0 +1,26 @@
+{
+    "name": "manish-kapadi/laravel-rest-api-helper",
+    "description": "A Laravel package to help you build RESTful APIs.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ManishKapadi\\LaravelRestApiHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "manish-kapadi",
+            "email": "kapadimanish1@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ManishKapadi\\LaravelRestApiHelper\\Providers\\RestApiServiceProvider"
+            ]
+        }
+    }
+}
